@@ -19,6 +19,16 @@ python main.py
 
 运行完看 `output/` 里两张结果图。
 
+## 真实照片版（硬币标定）
+
+拍一张照片：深色背景上放 **1 件工件 + 1 枚一元硬币**，手机垂直俯拍、光线均匀。
+
+```powershell
+python measure_real.py --image "D:/photo.jpg" --ref-mm 25
+```
+
+五角硬币直径 20.5mm，把 `--ref-mm 25` 改成 `20.5`。
+
 ## 代码结构（面试要能讲）
 
 | 文件 | 作用 |
