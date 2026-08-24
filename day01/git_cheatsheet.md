@@ -20,10 +20,10 @@ git log --oneline                # 看提交历史
 
 ## 等 GitHub 注册好之后
 
-在 GitHub 建一个空仓库（不要勾 README），然后：
+用已有的 `jie` 仓库（或新建一个空仓库，不要勾 README），然后：
 
 ```powershell
-git remote add origin https://github.com/你的用户名/11-AI学习.git
+git remote add origin https://github.com/2-creat/jie.git
 git branch -M main
 git push -u origin main
 ```
